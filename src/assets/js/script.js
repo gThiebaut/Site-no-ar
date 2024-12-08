@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
             profileFacebook.href = '';
             profileFacebook.textContent = '';
             profileImage.src = '';
-            window.location.href = "home.html";
+            window.location.href = "index.html";
            
             const modal = bootstrap.Modal.getInstance(document.getElementById('editProfileModal'));
             modal.hide();
